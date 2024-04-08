@@ -8,13 +8,21 @@ export default function App() {
         <h1>Weather Application</h1>
         <Weather defaultCity="Melbourne" />
         <footer>
-          This project was coded by Nyawira Gitaka and is{" "}
+          This project was coded by{" "}
+          <a
+            href="https://www.linkedin.com/in/nyawiragitaka/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Nyawira Gitaka{" "}
+          </a>
+          and is open sourced on{" "}
           <a
             href="https://github.com/NyawiraGitaka/react-weather-appIication"
             target="_blank"
             rel="noreferrer"
           >
-            open sourced on Github
+            Github
           </a>
         </footer>
       </div>
